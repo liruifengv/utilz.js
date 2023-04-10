@@ -9,7 +9,7 @@ module.exports = {
   extends: ['standard-with-typescript', 'prettier', 'plugin:@typescript-eslint/recommended'],
   overrides: [],
   parserOptions: {
-    programs: [parser.createProgram('tsconfig.json')],
+    programs: [parser.createProgram('./tsconfig.json')],
     ecmaVersion: 'latest',
   },
   plugins: ['prettier'],

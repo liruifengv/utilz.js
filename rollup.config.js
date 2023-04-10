@@ -9,7 +9,6 @@ export default {
     file: 'dist/utilities.esm.js',
     format: 'es',
   },
-  plugins: [],
   plugins: [
     typescript(),
     babel({
