@@ -1,0 +1,38 @@
+{
+  "name": "utilities",
+  "version": "0.0.1",
+  "description": "Some JS / TS Utilities.",
+  "main": "dist/utilities.esm.js",
+  "module": "dist/utilities.esm.js",
+  "type": "module",
+  "scripts": {
+    "help": "rimraf --help",
+    "build": "rimraf dist && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liruifengv/utilities.git"
+  },
+  "keywords": [
+    "utilities"
+  ],
+  "author": "liruifengv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liruifengv/utilities/issues"
+  },
+  "homepage": "https://github.com/liruifengv/utilities#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rimraf": "^5.0.0",
+    "rollup": "^3.20.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}
