@@ -1,6 +1,6 @@
-const parser = require('@typescript-eslint/parser');
+import parser from '@typescript-eslint/parser';
 
-module.exports = {
+export default {
   env: {
     commonjs: true,
     es2021: true,
