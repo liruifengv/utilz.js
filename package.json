@@ -1,9 +1,9 @@
 {
-  "name": "utilities.js",
+  "name": "utilz.js",
   "version": "0.0.1",
   "description": "Some JS / TS Utilities.",
-  "main": "dist/utilities.esm.js",
-  "module": "dist/utilities.esm.js",
+  "main": "dist/utilz.esm.js",
+  "module": "dist/utilz.esm.js",
   "type": "module",
   "types": "./dist/types/index.d.ts",
   "files": [

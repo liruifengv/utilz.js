@@ -6,7 +6,7 @@ const extensions = ['.js', '.ts'];
 export default {
   input: 'index.ts',
   output: {
-    file: 'dist/utilities.esm.js',
+    file: 'dist/utilz.esm.js',
     format: 'es',
   },
   plugins: [
