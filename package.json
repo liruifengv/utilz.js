@@ -1,12 +1,17 @@
 {
-  "name": "utilities",
+  "name": "utilities.js",
   "version": "0.0.1",
   "description": "Some JS / TS Utilities.",
   "main": "dist/utilities.esm.js",
   "module": "dist/utilities.esm.js",
   "type": "module",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "rimraf dist && rollup -c",
+    "clean:dist": "rimraf dist",
+    "build": "pnpm run clean:dist && rollup -c",
     "test": "jest",
     "lint": "eslint --fix",
     "lint:ci": "eslint",
@@ -18,7 +23,12 @@
     "url": "git+https://github.com/liruifengv/utilities.git"
   },
   "keywords": [
-    "utilities"
+    "utility",
+    "utilities",
+    "enum",
+    "axios",
+    "request",
+    "fetch"
   ],
   "author": "liruifengv",
   "license": "MIT",
@@ -26,6 +36,9 @@
     "url": "https://github.com/liruifengv/utilities/issues"
   },
   "homepage": "https://github.com/liruifengv/utilities#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/plugin-transform-runtime": "^7.21.4",
