@@ -1,5 +1,5 @@
 import typescript from '@rollup/plugin-typescript';
-import babel from '@rollup/plugin-babel'
+import babel from '@rollup/plugin-babel';
 
 const extensions = ['.js', '.ts'];
 
@@ -7,7 +7,7 @@ export default {
   input: 'index.ts',
   output: {
     file: 'dist/utilities.esm.js',
-    format: 'es'
+    format: 'es',
   },
   plugins: [],
   plugins: [
@@ -15,7 +15,7 @@ export default {
     babel({
       exclude: 'node_modules/**',
       extensions,
-      babelHelpers: 'bundled'
+      babelHelpers: 'bundled',
     }),
   ],
 };

@@ -1,0 +1,11 @@
+{
+  "git.ignoreLimitWarning": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.codeActionsOnSave.mode": "all",
+  "json.format.enable": false,
+  "prettier.printWidth": 100
+}
