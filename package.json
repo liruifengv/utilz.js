@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liruifengv/utilities.git"
+    "url": "git+https://github.com/liruifengv/utilz.js.git"
   },
   "keywords": [
     "utility",
@@ -33,9 +33,9 @@
   "author": "liruifengv",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liruifengv/utilities/issues"
+    "url": "https://github.com/liruifengv/utilz.js/issues"
   },
-  "homepage": "https://github.com/liruifengv/utilities#readme",
+  "homepage": "https://github.com/liruifengv/utilz.js#readme",
   "publishConfig": {
     "access": "public"
   },
