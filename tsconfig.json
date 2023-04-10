@@ -1,14 +1,10 @@
 {
   "compilerOptions": {
     "module": "es2015",
-    "declaration": true, /* 生成相关的 '.d.ts' 文件。 */ 
-    "declarationDir": "./dist/types", /* '.d.ts' 文件输出目录 */ 
+    "declaration": true,
+    "declarationDir": "./dist/types",
     "strictNullChecks": true,
     "esModuleInterop": true
   },
-  "exclude": [
-    "node_modules",
-    "**/*.test.ts",
-    "*.config.ts"
-  ]
+  "exclude": ["node_modules", "**/*.test.ts", "*.config.ts"]
 }
