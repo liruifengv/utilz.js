@@ -1,7 +1,7 @@
 import { sayHello, Params } from './hello';
 
 describe('hello module', () => {
-  test('测试 sayHello', () => {
+  test('test sayHello', () => {
     const user: Params = {
       name: 'lirf',
       age: 18,
