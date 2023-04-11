@@ -48,7 +48,6 @@ export class Enum implements EnumClass {
     return arr;
   }
 
-  // 获取枚举对象
   getObject(): Props {
     return this.__props;
   }
