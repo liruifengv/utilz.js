@@ -1,6 +1,6 @@
 {
   "name": "utilz.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Some JS / TS Utilities.",
   "main": "dist/utilz.esm.js",
   "module": "dist/utilz.esm.js",
@@ -23,6 +23,7 @@
     "url": "git+https://github.com/liruifengv/utilz.js.git"
   },
   "keywords": [
+    "util",
     "utility",
     "utilities",
     "enum",
