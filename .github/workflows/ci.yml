@@ -24,7 +24,7 @@ jobs:
           version: ^7.0
 
       - name: Install Deps
-        run: pnpm i
+        run: pnpm i --no-frozen-lockfile
 
       - name: Format
         run: pnpm run format:ci
