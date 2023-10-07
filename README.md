@@ -3,7 +3,7 @@
 ![version](https://img.shields.io/npm/v/utilz.js)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/liruifengv/utilz.js/pulls)
 ![license](https://img.shields.io/npm/l/utilz.js)
-![size](https://img.shields.io/bundlephobia/minzip/utilz.js)
+![downloads](https://img.shields.io/npm/dw/utilz.js)
 
 Some utilities for JavaScript.
 
