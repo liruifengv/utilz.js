@@ -1,7 +1,7 @@
 {
   "name": "utilz.js",
   "version": "0.0.3",
-  "description": "Some JS / TS Utilities.",
+  "description": "Some utilities for JavaScript.",
   "main": "dist/utilz.esm.js",
   "module": "dist/utilz.esm.js",
   "type": "module",
